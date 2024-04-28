@@ -1,0 +1,23 @@
+{
+    "version": "0.2",
+    "language": "en-GB",
+    "words": [
+        "Navigationbar",
+        "Flowbite"
+    ],
+    "ignoreRegExpList": [
+        "/import\\s+?(?:(?:(?:[\\w*\\s{},]*)\\s+from\\s+?)|)(?:(?:\".*?\")|(?:'.*?'))[\\s]*?(?:;|$|)/"
+    ],
+    "ignorePaths": [
+        "src/**/*.md",
+        "src/**/*.ts.md",
+        "src/**/*.ts.snap",
+        "src/**/*.html",
+        "src/assets/**",
+        "src/client/config.ts",
+        "src/server/db/migrations/*.ts",
+        "src/shared/zeus/**",
+        "src/scripts/*",
+        "src/ethers/**"
+    ]
+}
