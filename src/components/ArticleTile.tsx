@@ -13,7 +13,7 @@ const ArticleTile = ({ number }: ArticleTileProps) => {
 				<header className="flex items-center dark:bg-white  justify-between leading-tight p-2 md:p-4 dark:bg-whit ">
 					<h1 className="text-lg">
 						<a className="no-underline hover:underline text-black" href="#">
-							Article Title
+							Article Title { number }
 						</a>
 					</h1>
 					<p className="text-grey-darker text-sm dark:text-black">
